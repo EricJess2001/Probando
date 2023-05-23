@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Muro</string>
+    <string name="title_notifications">Info</string>
+    <string name="title_new">Sing in</string>
+    <string name="empezar_btn">EMPEZAR</string>
+    <string name="bienvenido_name">Bienvenido</string>
+    <string name="txt_terminos_condiciones_name">Te damos una grata bienvenida a Cultupaz interactua en nuestra interfaz movil, para saber mas de nosotros.</string>
+    <string name="txt_terminos_condiciones_2_name">Antes de continuar acepta nuestros terminos y condiciones para que puedas acceder a nuestra plataforma.</string>
+    <string name="acepta_terminos">Aceptar</string>
+    <string name="no_acepta_terminos">Cancelar</string>
+
+
+
+    <!--  Blogs-->
+    <string name="tittle">Fomentando cultura y paz </string>
+    <string name="descripcion">La cultura de paz inicia con el reconocimiento de los derechos de las y los demás a una vida digna, lo cual se logra mediante el diálogo y la posibilidad de resolver los conflictos de manera positiva, creando las condiciones que lleven a la paz integral</string>
+    <string name="cultura">Cultura de paz</string>
+    <string name="descultura">Garantiza que los conflictos que surgen de las relaciones humanas se resuelven de forma no violenta</string>
+    <string name="derechosl">LGBTIQ+</string>
+    <string name="derechosldescripcion">Igualdad de derechos para las personas LGBTIQ+</string>
+    <string name="derechosmujeres">Derechos a las mujeres</string>
+    <string name="derechosninos">Equidad de genero </string>
+    <string name="equidadgenerodescripcion"> Brinda a las mujeres y a los hombres las mismas oportunidades, condiciones, y formas de trato</string>
+
+
+
+</resources>
