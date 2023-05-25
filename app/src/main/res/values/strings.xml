@@ -2,7 +2,7 @@
     <string name="app_name"></string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Muro</string>
-    <string name="title_notifications">Info</string>
+    <string name="title_notifications">Eventos</string>
     <string name="title_new">Sing in</string>
     <string name="empezar_btn">EMPEZAR</string>
     <string name="bienvenido_name">Bienvenido</string>
@@ -10,7 +10,6 @@
     <string name="txt_terminos_condiciones_2_name">Antes de continuar acepta nuestros terminos y condiciones para que puedas acceder a nuestra plataforma.</string>
     <string name="acepta_terminos">Aceptar</string>
     <string name="no_acepta_terminos">Cancelar</string>
-
 
 
     <!--  Blogs-->
@@ -23,7 +22,9 @@
     <string name="derechosmujeres">Derechos a las mujeres</string>
     <string name="derechosninos">Equidad de genero </string>
     <string name="equidadgenerodescripcion"> Brinda a las mujeres y a los hombres las mismas oportunidades, condiciones, y formas de trato</string>
-
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_blog">Blog</string>
 
 
 </resources>
