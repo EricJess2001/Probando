@@ -23,17 +23,18 @@ public class HomeFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         binding = FragmentHomeBinding.inflate(inflater, container, false);
-        View root = binding.getRoot();
+        View view = inflater.inflate(R.layout.fragment_home, container, false);
 
-        LinearLayout tem1 = root.findViewById(R.id.tem1);
+        LinearLayout tem1 = (LinearLayout) view.findViewById(R.id.tem1);
         tem1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                FragmentManager fragmentManager = requireActivity().getSupportFragmentManager();
-                Fragment fragment = new Probando(); // Reemplaza "YourFragment" con la clase de tu fragmento destino
+                Probando probando4= new Probando();
+
+                FragmentManager fragmentManager = getFragmentManager();
+
                 fragmentManager.beginTransaction()
-                        .replace(R.id.container, fragment)
-                        .addToBackStack(null)
+                        .replace(R.id.nav_host_fragment_activity_main, probando4)
                         .commit();
             }
         });
@@ -41,7 +42,7 @@ public class HomeFragment extends Fragment {
 
         HomeViewModel homeViewModel = new ViewModelProvider(this).get(HomeViewModel.class);
 
-        return root;
+        return view;
     }
 
     @Override

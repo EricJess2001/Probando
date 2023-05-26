@@ -8,11 +8,7 @@
     <fragment
         android:id="@+id/navigation_home"
         android:name="com.example.probando.ui.home.HomeFragment"
-        tools:layout="@layout/fragment_home" >
-        <action
-            android:id="@+id/action_navigation_home_to_probando"
-            app:destination="@id/probando" />
-    </fragment>
+        tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
@@ -30,8 +26,12 @@
     <fragment
         android:id="@+id/probando"
         android:name="com.example.probando.Probando"
-        android:label="fragment_probando"
         tools:layout="@layout/fragment_probando" />
+    <fragment
+        android:id="@+id/prueba"
+        android:name="com.example.probando.Prueba"
+        android:label="fragment_prueba"
+        tools:layout="@layout/fragment_prueba" />
 
 
 </navigation>
